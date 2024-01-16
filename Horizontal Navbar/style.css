@@ -1,0 +1,56 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-family: sans-serif;
+   line-height: 1;
+   font-weight: 400;
+   color: #555;
+}
+
+header {
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 2.4rem;
+   background-color: rgb(31, 93, 31);
+   color: whitesmoke;
+}
+
+
+nav {
+   height: 100%;
+}
+
+ul {
+   list-style: none;
+   display: flex;
+
+}
+
+
+.logo,
+a {
+   padding: 1.2rem 1.8rem;
+   text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+   display: inline-block;
+}
+
+li:hover {
+   background-color: #666;
+   color: white;
+}

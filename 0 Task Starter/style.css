@@ -1,0 +1,9 @@
+body {
+   background: linear-gradient(to left, orange 60%, cyan);
+}
+
+h1 {
+   text-align: center;
+   width: 300px;
+   padding: 200px;
+}

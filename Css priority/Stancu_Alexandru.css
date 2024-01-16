@@ -1,0 +1,50 @@
+:root {
+   --color: blue
+}
+
+body {
+   background: linear-gradient(to left, orange 60%, cyan);
+}
+
+
+
+
+#id {
+
+   color: black
+}
+
+.class {
+   color: white;
+}
+
+html body h1 {
+   color: pink
+}
+
+h1 {
+
+   color: yellow !important;
+
+
+   text-align: center;
+   width: 300px;
+   padding: 200px;
+}
+
+
+/* Prioritatea aplicarii stilurilor css este urmatoarea 
+   1. stilul scris in atributul style al elementului html
+   2. stilul din interiorul elementului html <style>
+   3. stilul din fisiere css externe in ordinea citirii de sus in jos sau in functie de specificitatea selectorilor din css
+   
+   selectorii cei mai folositi in css in ordinea specificitatii sunt:
+   #id
+   .class
+   element
+   
+   un element selectat  utilizand mai multi selectori care fac referire la elementul respectiv prin descrierea cadrului DOM in care se afla sau prin mentionarea unor atribute ale elementului respectiv
+   
+   
+   exceptii fac proprietatile unde se foloseste '!important' care devin prioritare indiferent de sursa sau specificitatea selectorilor
+*/
